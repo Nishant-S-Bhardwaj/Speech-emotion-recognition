@@ -1,5 +1,4 @@
 # Speech Emotion Recognition
-Speech Emotion Recognition using MFCC, LPC, and STFT features with SVM and DCNN classifiers. Includes data loading, feature extraction, model training, evaluation, and visualization. Easily extensible for new datasets and experiments.
 
 ## Overview
 This project implements various pipelines for speech emotion recognition using different feature extraction methods (MFCC, LPC, STFT) and classifiers (SVM, DCNN). The goal is to accurately classify emotions from speech audio files.
@@ -35,6 +34,30 @@ All approaches use label encoding for emotion categories and split the dataset i
 
 ## Project Structure
 - `src/` - Source code for feature extraction and model training/evaluation
+- `notebooks/` - (Optional) Jupyter notebooks for exploration
 - `tests/` - Unit tests
+- `results/` - Model outputs and results
 - `sad_fear_test_file.wav` - Example audio file for testing
 - `project_report.docx` - Project documentation
+
+## Setup
+1. Clone the repository.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+Run a script from the `src/` directory, for example:
+```bash
+python src/mfcc_svm.py
+```
+
+## Results
+Results and model outputs will be saved in the `results/` directory.
+
+## Authors
+- Your Name Here
+
+## License
+Specify your license here. 
