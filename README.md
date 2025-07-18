@@ -57,7 +57,4 @@ python src/mfcc_svm.py
 Results and model outputs will be saved in the `results/` directory.
 
 ## Authors
-- Your Name Here
-
-## License
-Specify your license here. 
+- Nishant Bhardwaj
