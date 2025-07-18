@@ -58,3 +58,4 @@ Results and model outputs will be saved in the `results/` directory.
 
 ## Authors
 - Nishant Bhardwaj
+- NIT raipur | ECE-2026
